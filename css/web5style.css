@@ -1,0 +1,13 @@
+.contact{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.menu-name{
+  font-size: 30px;
+  position:absolute;
+  left:600px;
+  top: 120px;
+}

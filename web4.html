@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jongyong Park</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/web4style.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="web1.html">About Me</a>
+  <a href="web2.html">Project/Research</a>
+  <a href="web3.html">Experience</a>
+  <a href="web4.html">Skills</a>
+  <a href="web5.html">Contact</a>
+</div>
+
+<span style="font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<div id="main">
+<div class="nav">
+</div>
+<div class="menu-name">
+  <font color="white"><h1>Skills</h1></font>
+</div>
+<div class="language">
+  <font color="yellow"><h2>Languages</h2></font>
+</div>
+<div class="row">
+  <div class="column">
+    <img src='./image/korea.png' style="width:150px">
+    <font color="white"><div class="desc">Korean</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/english.png' style="width:200px">
+    <font color="white"><div class="desc">Englsih</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/china.png'  style="width:160px">
+    <font color="white"><div class="desc">Chinese</div></font>
+  </div>
+</div>
+<hr>
+<div class="computer_language">
+  <font color="yellow"><h2>Computer Languages</h2></font>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src='./image/c.jpg'  height='100%' style="width:80%"/>
+    <font color="white"><div class="desc">C programming</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/c++.png'  height='100%'style="width:50%"/>
+    <font color="white"><div class="desc">C ++</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/html.png'  height='100%'style="width:50%">
+    <font color="white"><div class="desc">HTML/CSS</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/python.png'  height='100%'style="width:100px">
+    <font color="white"><div class="desc">Python</div></font>
+  </div>
+</div>
+<hr>
+
+<div class="interest">
+  <font color="yellow"><h2>Interests&Hobbies</h2></font>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src='./image/flute.jpg'  height='100%' style="width:100%"/>
+    <font color="white"><div class="desc">Flute</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/drum.jpg'  height='100%'style="width:80%"/>
+    <font color="white"><div class="desc">Drum</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/vr.png'  height='100%'style="width:80%"/>
+    <font color="white"><div class="desc">VR</div></font>
+  </div>
+  <div class="column">
+    <img src='./image/soccer1.jpg'  height='100%'style="width:80%"/>
+    <font color="white"><div class="desc">Soccer</div></font>
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <footer>Jongyong Park @2019</footer>
+</div>
+</body>
+</html>

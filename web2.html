@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jongyong Park</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./css/web2style.css">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="web1.html">About Me</a>
+  <a href="web2.html">Project/Research</a>
+  <a href="web3.html">Experience</a>
+  <a href="web4.html">Skills</a>
+  <a href="web5.html">Contact</a>
+</div>
+
+<span style="font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<div id="main">
+<div class="nav">
+</div>
+<div class="menu-name">
+  <font color="white"><h1>Project/Research</h1></font>
+</div>
+<div class="first-pic">
+  <img src='./image/motion.jpg' height='100%'/>
+</div>
+<div class="first-explanation">
+  <h4>Motion capture Research</h4>
+  <font color="white">As one of the Aggie-challenge program, this project<br> is about the development of a low-cost motion <br>capture system.
+  I worked on writing code to capture<br> motion and saving changed position data with respect to<br> time.
+  Using this data, our team makes it to 3D animation model.<br></font>
+  <font color="red">•	Won 1st Place of overall non-capstone awards in 2019  TAMU Engineering Virtual Project Showcase </font>
+</div>
+<div class="second-pic">
+  <img src='./image/chess.jpg'  height='100%'/>
+</div>
+<div class="second-explanation">
+  <h4>Pegasus</h4>
+  <font color="white">This project is a homebrewed UCI-compatible <br>chess engine.
+  Our team is writing code for chess<br> AI system that can be played by different level.</font>
+</div>
+<div class="third-pic">
+  <img src='./image/website.jpg'  height='100%'/>
+</div>
+<div class="third-explanation">
+  <h4>Web Site</h4>
+    <font color="white">This web site is what I made it when I first learned HTML and CSS<br> by myself.
+    It's about how I studied English through Netflix.<br>
+    Github for the web site: </font><font color="white"><a href="https://github.com/pjy4183/web1" style="color: #cc0000">https://github.com/pjy4183/web1</a></font>
+</div>
+</div>
+<div class="footer">
+  <footer>Jongyong Park @2019</footer>
+</div>
+</body>
+</html>

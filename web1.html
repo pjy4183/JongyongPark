@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jongyong Park</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"><!--이게 web1, web2, web3 공통 부분 css 합친거 -->
+<link rel="stylesheet" href="./css/web1style.css"><!--이이건 web1 css 만 -->
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="web1.html">About Me</a>
+  <a href="web2.html">Project/Research</a>
+  <a href="web3.html">Experience</a>
+  <a href="web4.html">Skills</a>
+  <a href="web5.html">Contact</a>
+</div>
+
+<span style="font-size:30px;color:white;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+<!--script tag로 묶인 곳이 그 메뉴 설치하는곳 -->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<div id="main">
+<div class="nav">
+</div>
+<div class="menu-name">
+  <font color="white"><h1>About Me</h1></font>
+</div>
+<div class="main">
+  <div id="main-picture">
+      <img src='./image/photo.jpg'  height='100%'/>
+  </div>
+  <div class="title">
+    <h3><font color="white">Jongyong Park</font></h3>
+  </div>
+  <div class="subtitles">
+    <p><font color="white">BS in Computer Science<br>
+    Texas A&M University</font></p>
+  </div>
+
+  <div class="explanation">
+    <font color="white">
+    <p>
+      <br>
+      &ensp;<font color="black"><b>NAME</b></font>&emsp; &emsp;&emsp;  Jongyong Park&emsp;&emsp;&emsp;&emsp; <font color="black"><b>AGE</b></font>&emsp; &emsp;&ensp; &emsp;   22 Years<br>
+    </p>
+    <p>
+      &ensp;<font color="black"><b>Class year</b></font>&ensp; &ensp;&ensp;Class of 2022&emsp; &emsp;&ensp; <font color="black"><b>Classfication</b></font>&ensp; &ensp; &ensp;   Sophomore<br>
+    </p>
+    <p>
+      &ensp;<font color="black"><b>Major</b></font>&emsp; &emsp;&emsp;  Computer Science&emsp;&emsp;&ensp; <font color="black"><b>Minor</b></font>&emsp; &emsp; &ensp;   Cybersecurity<br>
+    </p>
+    <br>
+    <p>
+        &ensp;Howdy! I am studying Computer science at Texas A&M University.
+    </p>
+    <p>
+        &ensp;I love studying variety of computer languages. Using these languages,
+        &emsp; I'm participating some research and side projects. Even though I have few
+        &ensp;experineces in real world, I am always excited to work as a software
+        &ensp;engineer and cyber security experts.
+    </p>
+  </font>
+    <button class="resume-button" >
+      <a href="https://pjy4183.github.io/files/Resume-2020.pdf" target="_blank">resume</a>
+    </button>
+    <button class="class-button" >
+      <a href="https://pjy4183.github.io/files/Classes-2020.pdf" target="_blank">classes</a>
+    </button>
+
+  </div>
+</div>
+</div>
+<div class="footer">
+  <footer>Jongyong Park @2019</footer>
+</div>
+</body>
+</html>
