@@ -57,16 +57,23 @@
   top: 850px;
 
 }
+.fourth-pic{
+  top: 40px;
+  position: relative;
+  display: flex;
+  left:930px;
+  width: 300px;
+  height: 500px;
+}
 .fourth-explanation{
   font-style: oblique;
   position: inherit;
   text-decoration: underline;
   font-size: 27px;
-  left: 500px;
   width: 800px;
   top: 1050px;
-  margin-left: 174px;
-  margin-top: 50px;
+  margin-left: 100px;
+  margin-top: -350px;
 
 }
 img{
