@@ -57,6 +57,18 @@
   top: 850px;
 
 }
+.fourth-explanation{
+  font-style: oblique;
+  position: inherit;
+  text-decoration: underline;
+  font-size: 27px;
+  left: 500px;
+  width: 800px;
+  top: 1050px;
+  margin-left: 174px;
+  margin-top: 50px;
+
+}
 img{
   border-radius: 8px;
 }
