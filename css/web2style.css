@@ -58,7 +58,7 @@
 
 }
 .fourth-pic{
-  top: 40px;
+  margin-top: 60px;
   position: relative;
   display: flex;
   left:930px;
@@ -67,13 +67,38 @@
 }
 .fourth-explanation{
   font-style: oblique;
-  position: inherit;
+  position: relative;
   text-decoration: underline;
   font-size: 27px;
-  width: 800px;
-  top: 1050px;
+  width: 692px;
+  bottom: 468px;
   margin-left: 100px;
-  margin-top: -350px;
+
+}
+/* .fifth-pic{
+  top: 20px;
+  position: relative;
+  display: flex;
+  left:100px;
+  width: 300px;
+  height: 296px;
+}
+.fifth-explanation{
+  font-style: oblique;
+  position: relative;
+  text-decoration: underline;
+  font-size: 27px;
+  width: 692px;
+  bottom: 228px;
+  margin-left: 100px;
+  left: 561px;
+
+} */
+.last{
+  position: relative;
+  bottom: 228px;
+  text-align: center;
+
 
 }
 img{
